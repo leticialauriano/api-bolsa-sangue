@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$binary": {
+      "base64": "wrVJHkDDkw3DlUXCkXQWwop3w78ow4k=",
+      "subType": "00"
+    }
+  },
+  "Nome": "Sangue Total"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "LRbDksKbV8OaZ0vCnCTDs33ClMK3XcOc",
+      "subType": "00"
+    }
+  },
+  "Nome": "Concentrado de Hemácias"
+}]

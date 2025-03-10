@@ -1,0 +1,211 @@
+[{
+  "_id": {
+    "$binary": {
+      "base64": "LRkmakvCsnZMwpnDt8KTwrXCkXchw64=",
+      "subType": "00"
+    }
+  },
+  "Animal": {
+    "_id": {
+      "$binary": {
+        "base64": "LRbDksKbV8OaZ0vCnCTDs33ClMK3XcOc",
+        "subType": "00"
+      }
+    },
+    "Nome": "Gato"
+  },
+  "Tipo": {
+    "_id": {
+      "$binary": {
+        "base64": "wrVJHkDDkw3DlUXCkXQWwop3w78ow4k=",
+        "subType": "00"
+      }
+    },
+    "Nome": "Sangue Total"
+  },
+  "Quantidade": 12,
+  "DisponibilidadeImediata": true,
+  "DataColeta": {
+    "$date": "2020-06-27T03:00:00Z"
+  },
+  "DataValidade": {
+    "$date": "2020-07-27T03:00:00Z"
+  },
+  "Volume": 100,
+  "InformacoesAdicionais": "123"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "w7wlwqjCoDvDh8OvTcKCw6JhwoNdVgxm",
+      "subType": "00"
+    }
+  },
+  "Animal": {
+    "_id": {
+      "$binary": {
+        "base64": "LRbDksKbV8OaZ0vCnCTDs33ClMK3XcOc",
+        "subType": "00"
+      }
+    },
+    "Nome": "Cachorro"
+  },
+  "Tipo": {
+    "_id": {
+      "$binary": {
+        "base64": "wrVJHkDDkw3DlUXCkXQWwop3w78ow4k=",
+        "subType": "00"
+      }
+    },
+    "Nome": "Sangue Total"
+  },
+  "Quantidade": 12,
+  "DisponibilidadeImediata": true,
+  "DataColeta": {
+    "$date": "2020-06-27T03:00:00Z"
+  },
+  "DataValidade": {
+    "$date": "2020-07-27T03:00:00Z"
+  },
+  "Volume": 100,
+  "InformacoesAdicionais": ""
+},{
+  "_id": {
+    "$binary": {
+      "base64": "WXrDjyEhwozCiE7CpDbDrCvCjxJzVA==",
+      "subType": "00"
+    }
+  },
+  "Animal": {
+    "_id": {
+      "$binary": {
+        "base64": "LRbDksKbV8OaZ0vCnCTDs33ClMK3XcOc",
+        "subType": "00"
+      }
+    },
+    "Nome": "Cachorro"
+  },
+  "Tipo": {
+    "_id": {
+      "$binary": {
+        "base64": "wrVJHkDDkw3DlUXCkXQWwop3w78ow4k=",
+        "subType": "00"
+      }
+    },
+    "Nome": "Sangue Total"
+  },
+  "Quantidade": 100,
+  "DisponibilidadeImediata": true,
+  "DataColeta": {
+    "$date": "2020-07-01T03:00:00Z"
+  },
+  "DataValidade": {
+    "$date": "2021-07-01T03:00:00Z"
+  },
+  "Volume": 100,
+  "InformacoesAdicionais": "teeste"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "w7JcHMOPbcOpXUPCm8O1dmLChmYGPA==",
+      "subType": "00"
+    }
+  },
+  "Animal": {
+    "_id": {
+      "$binary": {
+        "base64": "LRbDksKbV8OaZ0vCnCTDs33ClMK3XcOc",
+        "subType": "00"
+      }
+    },
+    "Nome": "Gato"
+  },
+  "Tipo": {
+    "_id": {
+      "$binary": {
+        "base64": "wrVJHkDDkw3DlUXCkXQWwop3w78ow4k=",
+        "subType": "00"
+      }
+    },
+    "Nome": "Sangue Total"
+  },
+  "Quantidade": 100,
+  "DisponibilidadeImediata": true,
+  "DataColeta": {
+    "$date": "2020-07-01T03:00:00Z"
+  },
+  "DataValidade": {
+    "$date": "2021-07-01T03:00:00Z"
+  },
+  "Volume": 100,
+  "InformacoesAdicionais": "teeste"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "wqrCrsOlHcKcw5gJRcKyw5rDgwQ1dSHDog==",
+      "subType": "00"
+    }
+  },
+  "Animal": {
+    "_id": {
+      "$binary": {
+        "base64": "LRbDksKbV8OaZ0vCnCTDs33ClMK3XcOc",
+        "subType": "00"
+      }
+    },
+    "Nome": "Cachorro"
+  },
+  "Tipo": {
+    "_id": {
+      "$binary": {
+        "base64": "wrVJHkDDkw3DlUXCkXQWwop3w78ow4k=",
+        "subType": "00"
+      }
+    },
+    "Nome": "Sangue Total"
+  },
+  "Quantidade": 100,
+  "DisponibilidadeImediata": true,
+  "DataColeta": {
+    "$date": "2020-07-01T03:00:00Z"
+  },
+  "DataValidade": {
+    "$date": "2021-07-01T03:00:00Z"
+  },
+  "Volume": 100,
+  "InformacoesAdicionais": "era cinco"
+},{
+  "_id": {
+    "$binary": {
+      "base64": "L8ONEjbDj3rCs0jCgAdrwqoyXWfDvw==",
+      "subType": "00"
+    }
+  },
+  "Animal": {
+    "_id": {
+      "$binary": {
+        "base64": "LRbDksKbV8OaZ0vCnCTDs33ClMK3XcOc",
+        "subType": "00"
+      }
+    },
+    "Nome": "Cachorro"
+  },
+  "Tipo": {
+    "_id": {
+      "$binary": {
+        "base64": "wrVJHkDDkw3DlUXCkXQWwop3w78ow4k=",
+        "subType": "00"
+      }
+    },
+    "Nome": "Sangue Total"
+  },
+  "Quantidade": 100,
+  "DisponibilidadeImediata": true,
+  "DataColeta": {
+    "$date": "2020-07-01T03:00:00Z"
+  },
+  "DataValidade": {
+    "$date": "2021-07-01T03:00:00Z"
+  },
+  "Volume": 100,
+  "InformacoesAdicionais": "xibanca"
+}]

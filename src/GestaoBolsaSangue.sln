@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Services", "1.Services", "{C464DFE2-0478-4321-A8C4-B5161F1B6F97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{912F0366-60BD-4661-82AC-433FC4103475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{4AB35538-9D0D-4D6B-9F7E-7F4F8CDD6412}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{E9DC8F37-5F14-4597-B37C-368B34291496}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoBolsaSangue.WebApi", "GestaoBolsaSangue.WebApi\GestaoBolsaSangue.WebApi.csproj", "{D3C6D92B-FF11-4D32-8869-FBCC51850CFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoBolsaSangue.Application", "GestaoBolsaSangue.Application\GestaoBolsaSangue.Application.csproj", "{E09690DF-5D7C-45F8-A34B-B032282A31E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoBolsaSangue.Domain", "GestaoBolsaSangue.Domain\GestaoBolsaSangue.Domain.csproj", "{30ABDC53-CCCE-4060-979B-2E64B5A2FF55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoBolsaSangue.Infra.Data", "GestaoBolsaSangue.Infra.Data\GestaoBolsaSangue.Infra.Data.csproj", "{75ED5662-D3C3-4A1F-84FA-8C209AA4E655}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoBolsaSangue.Infra.DI", "GestaoBolsaSangue.Infra.DI\GestaoBolsaSangue.Infra.DI.csproj", "{33C798C5-679C-45D0-89B8-80B8E9C9B57F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Core", "0.Core", "{57CAEE88-B948-4960-BCDE-EB5DA9E6CEE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core", "core\core.csproj", "{CAF16246-719C-4F4E-85FF-5C78D7DE314D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoBolsaSangue.Infra.Data.Http", "GestaoBolsaSangue.Infra.Data.Http\GestaoBolsaSangue.Infra.Data.Http.csproj", "{7EF1A404-64C0-4469-A896-7D15CED1B683}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3C6D92B-FF11-4D32-8869-FBCC51850CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C6D92B-FF11-4D32-8869-FBCC51850CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C6D92B-FF11-4D32-8869-FBCC51850CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C6D92B-FF11-4D32-8869-FBCC51850CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09690DF-5D7C-45F8-A34B-B032282A31E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09690DF-5D7C-45F8-A34B-B032282A31E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09690DF-5D7C-45F8-A34B-B032282A31E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09690DF-5D7C-45F8-A34B-B032282A31E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30ABDC53-CCCE-4060-979B-2E64B5A2FF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30ABDC53-CCCE-4060-979B-2E64B5A2FF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30ABDC53-CCCE-4060-979B-2E64B5A2FF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30ABDC53-CCCE-4060-979B-2E64B5A2FF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75ED5662-D3C3-4A1F-84FA-8C209AA4E655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75ED5662-D3C3-4A1F-84FA-8C209AA4E655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75ED5662-D3C3-4A1F-84FA-8C209AA4E655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75ED5662-D3C3-4A1F-84FA-8C209AA4E655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C798C5-679C-45D0-89B8-80B8E9C9B57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C798C5-679C-45D0-89B8-80B8E9C9B57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C798C5-679C-45D0-89B8-80B8E9C9B57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C798C5-679C-45D0-89B8-80B8E9C9B57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF16246-719C-4F4E-85FF-5C78D7DE314D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF16246-719C-4F4E-85FF-5C78D7DE314D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF16246-719C-4F4E-85FF-5C78D7DE314D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF16246-719C-4F4E-85FF-5C78D7DE314D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF1A404-64C0-4469-A896-7D15CED1B683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF1A404-64C0-4469-A896-7D15CED1B683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF1A404-64C0-4469-A896-7D15CED1B683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF1A404-64C0-4469-A896-7D15CED1B683}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3C6D92B-FF11-4D32-8869-FBCC51850CFF} = {C464DFE2-0478-4321-A8C4-B5161F1B6F97}
+		{E09690DF-5D7C-45F8-A34B-B032282A31E5} = {912F0366-60BD-4661-82AC-433FC4103475}
+		{30ABDC53-CCCE-4060-979B-2E64B5A2FF55} = {4AB35538-9D0D-4D6B-9F7E-7F4F8CDD6412}
+		{75ED5662-D3C3-4A1F-84FA-8C209AA4E655} = {E9DC8F37-5F14-4597-B37C-368B34291496}
+		{33C798C5-679C-45D0-89B8-80B8E9C9B57F} = {E9DC8F37-5F14-4597-B37C-368B34291496}
+		{CAF16246-719C-4F4E-85FF-5C78D7DE314D} = {57CAEE88-B948-4960-BCDE-EB5DA9E6CEE8}
+		{7EF1A404-64C0-4469-A896-7D15CED1B683} = {E9DC8F37-5F14-4597-B37C-368B34291496}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47918D3E-1427-4741-896A-D428A84424FE}
+	EndGlobalSection
+EndGlobal
