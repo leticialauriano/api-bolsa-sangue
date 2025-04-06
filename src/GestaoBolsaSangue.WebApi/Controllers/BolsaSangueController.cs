@@ -1,4 +1,5 @@
 ﻿using core.API;
+using GestaoBolsaSangue.Application.DTOs.Alterar;
 using GestaoBolsaSangue.Application.DTOs.Salvar;
 using GestaoBolsaSangue.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +23,17 @@ namespace GestaoBolsaSangue.WebApi.Controllers
                 return ResponseRequetErrors();
 
             var response = await _service.Salvar(request);
+            return ResponseHttp(response);
+        }
+
+        [HttpPut]
+        [Route("BolsaSangue/{id:guid}")]
+        public async Task<IActionResult> Alterar([FromBody] AlterarBolsaSangueDTO request)
+        {
+            if (!ModelState.IsValid)
+                return ResponseRequetErrors();
+
+            var response = await _service.Alterar(request);
             return ResponseHttp(response);
         }
 

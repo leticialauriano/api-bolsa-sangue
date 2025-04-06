@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using core.Patterns.MediatR;
 using FluentValidation.Results;
+using GestaoBolsaSangue.Application.DTOs.Alterar;
 using GestaoBolsaSangue.Application.DTOs.Salvar;
 using GestaoBolsaSangue.Application.Interfaces;
 using GestaoBolsaSangue.Domain.Commands;
@@ -29,6 +30,14 @@ namespace GestaoBolsaSangue.Application.Services
             var salvarCommand = new SalvarBolsaSangueCommand(bolsaSangueModel);
 
             return await _mediator.SendCommand(salvarCommand);
+        }
+
+        public async Task<ValidationResult> Alterar(AlterarBolsaSangueDTO request)
+        {
+            var BolsaSangueModel = _mapper.Map<Domain.Models.BolsaSangue>(request);
+            var alterarCommand = new AlterarBolsaSangueCommand(BolsaSangueModel);
+
+            return await _mediator.SendCommand(alterarCommand);
         }
 
         public async Task<IList<Listar.ListarBolsaSangueDTO>> Listar()

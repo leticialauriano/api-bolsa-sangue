@@ -56,6 +56,7 @@ namespace GestaoBolsaSangue.Infra.DI
         private static void RegistrarDomainCommands()
         {
             _services.AddScoped<IRequestHandler<SalvarBolsaSangueCommand, ValidationResult>, BolsaSangueCommandHandler>();
+            _services.AddScoped<IRequestHandler<AlterarBolsaSangueCommand, ValidationResult>, BolsaSangueCommandHandler>();
         }
 
         private static void RegistrarApplication()
