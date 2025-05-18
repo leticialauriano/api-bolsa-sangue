@@ -12,7 +12,8 @@ namespace GestaoBolsaSangue.Domain.Commands.Handler
 {
     public class BolsaSangueCommandHandler : CommandHandler,
         IRequestHandler<SalvarBolsaSangueCommand, ValidationResult>,
-        IRequestHandler<AlterarBolsaSangueCommand, ValidationResult>
+        IRequestHandler<AlterarBolsaSangueCommand, ValidationResult>,
+        IRequestHandler<DeletarBolsaSangueCommand, ValidationResult>
     {
         private readonly IBolsaSangueRepository _repository;
         private readonly ITipoBolsaSangueRepository _tipoBolsaSangueRepository;
@@ -114,6 +115,20 @@ namespace GestaoBolsaSangue.Domain.Commands.Handler
 
             return await Commit(_repository.UnitOfWork);
         }
+        public async Task<ValidationResult> Handle(DeletarBolsaSangueCommand command, CancellationToken cancellationToken)
+        {
+            if (!command.IsValid())
+                return command.ValidationResult;
 
+            var bolsaSangueExists = await _repository.GetById(command.Id);
+            if (bolsaSangueExists == null)
+            {
+                AddError(Erros.RegistroNaoEncontrado);
+                return Notification;
+            }
+
+            _repository.Remove(bolsaSangueExists.Id);
+            return await Commit(_repository.UnitOfWork);
+        }
     }
 }

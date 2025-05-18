@@ -13,5 +13,6 @@ namespace GestaoBolsaSangue.Application.Interfaces
         Task<IList<Listar.ListarBolsaSangueDTO>> Listar();
         Task<ValidationResult> Alterar(AlterarBolsaSangueDTO request);
         Task<ValidationResult> Salvar(SalvarBolsaSangueDTO request);
+        Task<ValidationResult> Deletar(Guid id);
     }
 }

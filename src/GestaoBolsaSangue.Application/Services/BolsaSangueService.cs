@@ -44,7 +44,13 @@ namespace GestaoBolsaSangue.Application.Services
         {
             var responseRepository = await _repository.GetAll();
             return _mapper.Map<IList<Listar.ListarBolsaSangueDTO>>(responseRepository);
-        }     
+        }
+
+        public async Task<ValidationResult> Deletar(Guid id)
+        {
+            var deletarCommand = new DeletarBolsaSangueCommand(id);
+            return await _mediator.SendCommand(deletarCommand);
+        }
 
         public void Dispose()
         {
